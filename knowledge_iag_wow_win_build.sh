@@ -1,0 +1,2 @@
+sudo docker image build -t gcr.io/gpt-j-and-gpt-neox20b/knowledge_iag_wow_win:latest -f deployment.Dockerfile --build-arg MODEL_NAME=knowledge_iag_wow_win .
+sudo docker push gcr.io/gpt-j-and-gpt-neox20b/knowledge_iag_wow_win:latest
