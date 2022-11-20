@@ -1,5 +1,5 @@
 directory="marco_wow_win"
-bucket="gptjax_model_weights"
+bucket="gpt-j-n-gpt-neo-phani"
 folder="reddit_marco_wow_win_slim_f16"
 
 if [ ! -d "${directory}" ]; then
